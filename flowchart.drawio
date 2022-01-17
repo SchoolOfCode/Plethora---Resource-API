@@ -37,8 +37,8 @@
                 <mxCell id="10" value="PostgreSQL database (1 table)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
                     <mxGeometry x="540" y="170" width="150" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="&lt;h1&gt;our db table&lt;/h1&gt;&lt;p&gt;Serial ID&lt;/p&gt;&lt;p&gt;title&lt;/p&gt;&lt;p&gt;image&lt;/p&gt;&lt;p&gt;video thumbnail&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" vertex="1" parent="1">
-                    <mxGeometry x="280" y="440" width="300" height="250" as="geometry"/>
+                <mxCell id="14" value="&lt;h1 style=&quot;text-align: center&quot;&gt;our db table&lt;/h1&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;p style=&quot;text-align: center&quot;&gt;PRIMARY KEY smth&lt;/p&gt;&lt;p&gt;title&lt;/p&gt;&lt;p&gt;topic (category)&lt;/p&gt;&lt;p&gt;week&lt;/p&gt;&lt;p&gt;URL&lt;/p&gt;&lt;p&gt;image&lt;/p&gt;&lt;p&gt;video thumbnail&amp;nbsp;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="400" width="200" height="290" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
