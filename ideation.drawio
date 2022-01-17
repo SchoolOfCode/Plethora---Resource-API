@@ -1,16 +1,16 @@
 <mxfile host="65bd71144e">
     <diagram id="fIv6yBxOHjXp-t3xew6y" name="Page-1">
-        <mxGraphModel dx="1268" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1230" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Possible Ideas&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Possible Ideas&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="250" y="180" width="266" height="180" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Who is this for? BOOTCAMPERS&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-                    <mxGeometry x="30" y="20" width="280" height="110" as="geometry"/>
+                <mxCell id="3" value="Who is this for? BOOTCAMPERS&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="20" width="280" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=18;" edge="1" parent="1">
+                <mxCell id="4" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=18;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="500" y="320" as="sourcePoint"/>
                         <mxPoint x="590" y="360" as="targetPoint"/>
@@ -19,85 +19,85 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="5" value="Tech-tionary" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="5" value="Tech-tionary" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="490" y="370" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="- Bootcamper can search for tech term" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="6" value="- Bootcamper can search for tech term" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="445" y="450" width="320" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="- They recieve a definition and a code snippet&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="7" value="- They recieve a definition and a code snippet&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="447" y="475" width="380" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="Resources API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="8" value="Resources API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="120" y="360" width="160" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=18;entryX=0.64;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.122;exitY=0.561;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2" target="8">
+                <mxCell id="10" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=18;entryX=0.64;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.122;exitY=0.561;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="2" target="8" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="210" y="320" as="sourcePoint"/>
                         <mxPoint x="260" y="270" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="11" value="- A collection of useful resouces (bootcamper friendly)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="11" value="- A collection of useful resouces (bootcamper friendly)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="95" y="430" width="285" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="-(i.e) Top 10 resources for learning CSS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="12" value="-(i.e) Top 10 resources for learning CSS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="95" y="480" width="285" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="- resources to reflect weekly progress/material" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="13" value="- resources to reflect weekly progress/material" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="60" y="520" width="295" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="&lt;b&gt;&lt;u&gt;What problem does this solve? &lt;br&gt;&lt;/u&gt;&lt;/b&gt;1. Allows bootcampers to catch up in their &lt;br&gt;own time without wasting time on searching google&lt;br&gt;2. Curated list that us three and &lt;br&gt;others have posted in slack/ watched ourselves" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="15" value="&lt;b&gt;&lt;u&gt;What problem does this solve? &lt;br&gt;&lt;/u&gt;&lt;/b&gt;1. Allows bootcampers to catch up in their &lt;br&gt;own time without wasting time on searching google&lt;br&gt;2. Curated list that us three and &lt;br&gt;others have posted in slack/ watched ourselves" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="20" y="570" width="420" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;u&gt;What problem does this solve?&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. Allows bootcampers to search key terminology definitions&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;used throughout course but in a way that is very simple&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. curated list of defintions that&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;a) we find useful&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;b) reflects what was covered in the bootcamp; all in one place&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;c) code examples/ snippets&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="16" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;u&gt;What problem does this solve?&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. Allows bootcampers to search key terminology definitions&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;used throughout course but in a way that is very simple&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. curated list of defintions that&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;a) we find useful&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;b) reflects what was covered in the bootcamp; all in one place&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;c) code examples/ snippets&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="470" y="520" width="510" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="Problems " style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="17" value="Problems " style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="1210" y="110" width="420" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="Wasting time searching" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="17">
+                <mxCell id="18" value="Wasting time searching" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" parent="17" vertex="1">
                     <mxGeometry y="30" width="420" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="FOMO (fear of constantly being behind, too slow)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="17">
+                <mxCell id="19" value="FOMO (fear of constantly being behind, too slow)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" parent="17" vertex="1">
                     <mxGeometry y="60" width="420" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="Self-doubt (is this course really for me?)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="17">
+                <mxCell id="20" value="Self-doubt (is this course really for me?)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" parent="17" vertex="1">
                     <mxGeometry y="90" width="420" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="21" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="1210" y="350" width="420" height="190" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="Feedback improvement " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="21">
+                <mxCell id="22" value="Feedback improvement " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" parent="21" vertex="1">
                     <mxGeometry y="30" width="420" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="Energizers that promote movement (yoga moves?) " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="21">
+                <mxCell id="23" value="Energizers that promote movement (yoga moves?) " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" parent="21" vertex="1">
                     <mxGeometry y="60" width="420" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="Writing daily/weekly reflections (what to improve?&#10; progress tracker)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="21">
+                <mxCell id="24" value="Writing daily/weekly reflections (what to improve?&#10; progress tracker)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" parent="21" vertex="1">
                     <mxGeometry y="90" width="420" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="26" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="1210" y="230" width="420" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="Mental and Physical Wellbeing" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="26">
+                <mxCell id="27" value="Mental and Physical Wellbeing" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" parent="26" vertex="1">
                     <mxGeometry y="30" width="420" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="Time management" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="26">
+                <mxCell id="28" value="Time management" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" parent="26" vertex="1">
                     <mxGeometry y="60" width="420" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="Motivation (e.g hard to engage with course)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="26">
+                <mxCell id="29" value="Motivation (e.g hard to engage with course)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" parent="26" vertex="1">
                     <mxGeometry y="90" width="420" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Possible Ideas&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="30" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Possible Ideas&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="250" y="180" width="266" height="180" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=18;entryX=0.64;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.122;exitY=0.561;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="30" target="33" parent="1">
+                <mxCell id="31" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=18;entryX=0.64;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.122;exitY=0.561;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="30" target="33" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="210" y="320" as="sourcePoint"/>
                         <mxPoint x="260" y="270" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="32" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=18;" edge="1" parent="1">
+                <mxCell id="32" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=18;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="500" y="320" as="sourcePoint"/>
                         <mxPoint x="590" y="360" as="targetPoint"/>
@@ -106,31 +106,31 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="33" value="Resources API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="33" value="Resources API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="120" y="360" width="160" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="- A collection of useful resouces (bootcamper friendly)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="34" value="- A collection of useful resouces (bootcamper friendly)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="95" y="430" width="285" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" value="-(i.e) Top 10 resources for learning CSS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="35" value="-(i.e) Top 10 resources for learning CSS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="95" y="480" width="285" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="- resources to reflect weekly progress/material" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="36" value="- resources to reflect weekly progress/material" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="60" y="520" width="295" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" value="Tech-tionary" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="37" value="Tech-tionary" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="490" y="370" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Possible Ideas&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="38" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Possible Ideas&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="250" y="180" width="266" height="180" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=18;entryX=0.64;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.122;exitY=0.561;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="38" target="41" parent="1">
+                <mxCell id="39" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=18;entryX=0.64;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.122;exitY=0.561;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="38" target="41" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="210" y="320" as="sourcePoint"/>
                         <mxPoint x="260" y="270" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="40" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=18;" edge="1" parent="1">
+                <mxCell id="40" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=18;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="500" y="320" as="sourcePoint"/>
                         <mxPoint x="590" y="360" as="targetPoint"/>
@@ -139,32 +139,60 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="41" value="Resources API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="41" value="Resources API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="120" y="360" width="160" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="- A collection of useful resouces (bootcamper friendly)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="42" value="- A collection of useful resouces (bootcamper friendly)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="95" y="430" width="285" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="43" value="-(i.e) Top 10 resources for learning CSS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="43" value="-(i.e) Top 10 resources for learning CSS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="95" y="480" width="285" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" value="- resources to reflect weekly progress/material" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="44" value="- resources to reflect weekly progress/material" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="60" y="520" width="295" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" value="Tech-tionary" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="45" value="Tech-tionary" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="490" y="370" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;u&gt;What problem does this solve?&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. Allows bootcampers to search key terminology definitions&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;used throughout course but in a way that is very simple&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. curated list of defintions that&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;a) we find useful&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;b) reflects what was covered in the bootcamp; all in one place&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;c) code examples/ snippets&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="46" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;u&gt;What problem does this solve?&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. Allows bootcampers to search key terminology definitions&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;used throughout course but in a way that is very simple&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. curated list of defintions that&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;a) we find useful&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;b) reflects what was covered in the bootcamp; all in one place&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;c) code examples/ snippets&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="470" y="520" width="510" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="48" value="Progress tracker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-                    <mxGeometry x="370" y="90" width="190" height="80" as="geometry"/>
+                <mxCell id="48" value="Progress tracker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="355" y="40" width="190" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="52" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;- note down weekly progress&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- personal self-feedback&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- mood tracker&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- github links to repos for that week (orgainsed)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;-&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" vertex="1" parent="1">
-                    <mxGeometry x="580" y="80" width="290" height="190" as="geometry"/>
+                <mxCell id="52" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;- note down weekly progress&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- personal self-feedback&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- mood tracker&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- github links to repos for that week (orgainsed)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;-&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="40" width="290" height="190" as="geometry"/>
                 </mxCell>
-                <mxCell id="55" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;u&gt;What problem does this solve?&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;1. boosts motivation (visualisation of progress)&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;2. Organise weekly hackerthons (what is complete, what is not)&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;3. Interview prep: something to refer to when prepearing&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;5. Added as part of personal portfolio /&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp;a link to send to employers&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
-                    <mxGeometry x="665" y="270" width="520" height="140" as="geometry"/>
+                <mxCell id="55" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;u&gt;What problem does this solve?&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;1. boosts motivation (visualisation of progress)&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;2. Organise weekly hackerthons (what is complete, what is not)&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;3. Interview prep: something to refer to when prepearing&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;5. Added as part of personal portfolio /&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp;a link to send to employers&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="290" width="520" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Internal wikipedia for&lt;br&gt;bootcampers&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;- articles on topics covered that was an insight for someone&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font size=&quot;3&quot;&gt;- trains skills for future documentation creation&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font size=&quot;3&quot;&gt;-sharing a problem solution&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font size=&quot;3&quot;&gt;What problem does it solve?&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font size=&quot;3&quot;&gt;- customised resource&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font size=&quot;3&quot;&gt;-targeted solution to a specific problem&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font size=&quot;3&quot;&gt;- time-saving&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="860" y="10" width="320" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=14;entryX=0.416;entryY=1.045;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="48">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="380" y="195" as="sourcePoint"/>
+                        <mxPoint x="430" y="145" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=14;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.885;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="38" target="56">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="590" y="240" as="sourcePoint"/>
+                        <mxPoint x="640" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;font&gt;Mindfullness app&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Resources&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font size=&quot;3&quot;&gt;Activities tracker and prompter (movement, water, fresh air&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font size=&quot;3&quot;&gt;16-personality quiz, personalised advice&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font size=&quot;3&quot;&gt;Easier to access resources:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font size=&quot;3&quot;&gt;links to videos and articles&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="710" width="280" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=18;width=15;endSize=9.35;" edge="1" parent="1" source="38" target="59">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="580" y="720" as="sourcePoint"/>
+                        <mxPoint x="630" y="670" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="420" y="380"/>
+                            <mxPoint x="440" y="430"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
