@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Z4tLATWRonfAbU48F7Hh" name="Page-1">
-        <mxGraphModel dx="1230" dy="349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1060" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -40,13 +40,13 @@
                 <mxCell id="14" value="&lt;h1&gt;our db table&lt;/h1&gt;&lt;p&gt;Serial ID&lt;/p&gt;&lt;p&gt;title&lt;/p&gt;&lt;p&gt;topic&lt;/p&gt;&lt;p&gt;week&lt;/p&gt;&lt;p&gt;resource_url&lt;/p&gt;&lt;p&gt;thumbnail&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="615" y="190" width="180" height="250" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+                <mxCell id="21" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="270" y="220" as="targetPoint"/>
                         <mxPoint x="190" y="255" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="22" value="&lt;h1&gt;Routes&lt;/h1&gt;&lt;p&gt;1. GET all resources&lt;/p&gt;&lt;p&gt;2. GET resource by id&lt;/p&gt;&lt;p&gt;3. GET resource by title&lt;/p&gt;&lt;p&gt;4. PATCH resource by id&lt;/p&gt;&lt;p&gt;5. POST new resource&lt;/p&gt;&lt;p&gt;6.. DELETE new resource by id&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                <mxCell id="22" value="&lt;h1&gt;Routes&lt;/h1&gt;&lt;p&gt;1. GET all resources&lt;/p&gt;&lt;p&gt;2. GET resource by id&lt;/p&gt;&lt;p&gt;3. GET resource by title&lt;/p&gt;&lt;p&gt;4. PATCH resource by id&lt;/p&gt;&lt;p&gt;5. POST new resource&lt;/p&gt;&lt;p&gt;6.. DELETE resource by id&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="5" y="180" width="190" height="260" as="geometry"/>
                 </mxCell>
             </root>

@@ -1,0 +1,15 @@
+Header (component) 📂
+    -logo (component)
+    - navbar (component) 📂
+        -link to html resources (navlink component)
+        -link to React resources (navlink component)
+        -link to JavaScript (navlink component)
+Main(component) 📂
+    - Title (component)
+    - description (component) 📂?
+        -SoC logo
+        -description text
+    - input(component) 📂
+        -button element
+    - Search Results(component) 📂
+
