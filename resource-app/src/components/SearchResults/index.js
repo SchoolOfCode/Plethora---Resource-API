@@ -7,7 +7,12 @@ export function SearchResults() {
 
   useEffect(() => {
     async function getResults() {
-      const response = await fetch(`${API_URL}`);
+      const response = await fetch(`${API_URL}`, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        } 
+      })
       const data = await response.json();
       if (data.success === true) {
         console.log(data);
@@ -16,6 +21,13 @@ export function SearchResults() {
     }
     getResults();
   }, []);
+
+  const result = await fetch(URL, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
 
   // return <div>Search Results will be here</div>;
 
