@@ -22,13 +22,6 @@ export function SearchResults() {
     getResults();
   }, []);
 
-  const result = await fetch(URL, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-  })
-
   // return <div>Search Results will be here</div>;
 
   return (

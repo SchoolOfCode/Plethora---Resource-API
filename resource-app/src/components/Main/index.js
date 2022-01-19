@@ -6,7 +6,7 @@ import { SearchResults } from "../SearchResults";
 export function Main() {
   return (
     <main>
-      <h1>Resource API</h1>
+      <h1 className="title">Resource API</h1>
       <Description />
       <Input />
       <SearchResults />

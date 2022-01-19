@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap');
+
+html {
+  /* Colors */
+  --primary-clr: #31986A;
+  --dark-clr: #0B0D17;
+  --light-clr: #E7E7E7
+  --accent-clr: #4A90E2
+
+  /* Fonts */
+  --fs-title: 3rem;
+  --fs-description: 1.5rem;
+  --fs-nav-link: 1.125rem;
+  --fs-reg: 1rem;
+
+  --ff-reg: 'Barlow Condensed', sans-serif;
+  --ff-title: 'Bellefair', serif;
+  --fw-reg: 400;
+  --fw-bold: 700;
+
+  /* Spacing */
+  --margin: 0.5em;
+  --nav-height: 6.25em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Set core body defaults */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  font-family: var(--ff-reg);
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background: var(--dark-clr);
+  color: var(--light-clr);
 }
 
-.App-link {
-  color: #61dafb;
+/* A elements that don't have a class get default styles */
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  /* display: block; */
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+input {
+  outline: none;
+}
+
+/* Typography */
+.title {
+  font-family: var(--ff-title);
+  font-size: var()
+}
+
+/* Logos */
+.logo {
+  max-height: 3.75em;
 }

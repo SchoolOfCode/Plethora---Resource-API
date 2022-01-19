@@ -5,7 +5,7 @@ import NavBar from "../Navbar";
 export function Header() {
   return (
     <header>
-      <img src={logo} alt="Logo" />
+      <img src={logo} alt="Logo" className="logo"/>
       <NavBar />
     </header>
   );
