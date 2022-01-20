@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 // const API_URL = process.env.REACT_APP_API_URL;
 const API_URL = "https://w9project.herokuapp.com/resources";
