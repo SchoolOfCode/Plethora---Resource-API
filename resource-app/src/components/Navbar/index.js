@@ -4,7 +4,7 @@ import NavLink from '../NavLink'
 function NavBar() {
   return (
     <nav>
-      <ul>
+      <ul className=''>
         <NavLink LinkName={"HTML/CSS"}/>
         <NavLink LinkName={"JavaScript"}/>
         <NavLink LinkName={"React"}/>

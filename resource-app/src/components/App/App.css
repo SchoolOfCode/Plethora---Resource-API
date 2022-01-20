@@ -4,8 +4,8 @@ html {
   /* Colors */
   --primary-clr: #31986A;
   --dark-clr: #0B0D17;
-  --light-clr: #E7E7E7
-  --accent-clr: #4A90E2
+  --light-clr: #E7E7E7;
+  --accent-clr: #4A90E2;
 
   /* Fonts */
   --fs-title: 3rem;
@@ -60,8 +60,10 @@ input {
 
 /* Typography */
 .title {
+  font-size: var(--fs-title);
   font-family: var(--ff-title);
-  font-size: var()
+  font-weight: var(--fw-reg);
+  color: var(--primary-clr);
 }
 
 /* Logos */
