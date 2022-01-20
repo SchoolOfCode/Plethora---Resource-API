@@ -1,43 +1,27 @@
-// import React, { useEffect, useState } from "react";
-import { useEffect } from "react";
+import React from "react";
 
-// const API_URL = process.env.REACT_APP_API_URL;
-const API_URL = "https://w9project.herokuapp.com/resources";
-
-export function SearchResults() {
-  // const [results, setResults] = useState([]);
-
-  useEffect(() => {
-    async function getResults() {
-      const response = await fetch(`${API_URL}`, {
-        // method: 'GET',
-        // headers: {
-        //   'Content-Type': 'application/json',
-        // }
-      });
-      const data = await response.json();
-      // if (data.success === true) {
-      //   console.log(data);
-      //   setResults(data.payload);
-      // }
-      console.log(data);
-    }
-    getResults();
-  }, []);
-
-  // return <div>Search Results will be here</div>;
-
+export function SearchResults({ results }) {
   return (
-    <ul>
-      <li>Test</li>
-  {/* //     {results.map(function (result) { */}
-  {/* //       return (
-  //         <li key={result.resourceid}>
-  //           <p>Title: {result.title}</p>
-  //           <p>URL: {result.url}</p>
-  //         </li>
-  //       );
-  //     })} */}
-    </ul>
+    <div>
+      {/* <li>Test</li> */}
+      {results.map(function (result) {
+        return (
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href={result.url}
+            key={result.resourceid}
+          >
+            <div className="card">
+              <img
+                src={result.thumbnail}
+                alt={`${result.resource_type} thumbnail`}
+              ></img>
+              <h3>{result.title}</h3>
+            </div>
+          </a>
+        );
+      })}
+    </div>
   );
 }
