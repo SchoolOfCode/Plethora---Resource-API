@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 // const API_URL = process.env.REACT_APP_API_URL;
-const API_URL = "http://localhost:3001/resources";
+const API_URL = "https://w9project.herokuapp.com/resources";
 
 export function SearchResults() {
   const [results, setResults] = useState([]);
@@ -15,10 +15,11 @@ export function SearchResults() {
         // }
       });
       const data = await response.json();
-      if (data.success === true) {
-        console.log(data);
-        setResults(data.payload);
-      }
+      // if (data.success === true) {
+      //   console.log(data);
+      //   setResults(data.payload);
+      // }
+      console.log(data);
     }
     getResults();
   }, []);
