@@ -1,4 +1,5 @@
 import React from "react";
+import './Main.css'
 import { Description } from "../Description";
 import { Input } from "../Input";
 import { SearchResults } from "../SearchResults";

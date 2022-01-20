@@ -1,10 +1,11 @@
 import React from "react";
+import './Input.css'
 
 export function Input() {
   return (
     <form>
-      <input />
-      <button type="submit">Search</button>
+      <input className="resource-input" placeholder="Search for topics"/>
+      <button className="submit-btn" type="submit">Search</button>
     </form>
   );
 }

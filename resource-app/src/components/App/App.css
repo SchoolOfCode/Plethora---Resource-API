@@ -4,8 +4,10 @@ html {
   /* Colors */
   --primary-clr: #31986A;
   --dark-clr: #0B0D17;
+  --dark-bg-clr: hsla(230, 35%, 7%, 0.795);
   --light-clr: #E7E7E7;
   --accent-clr: #4A90E2;
+  --white: #fff;
 
   /* Fonts */
   --fs-title: 3rem;
@@ -19,8 +21,48 @@ html {
   --fw-bold: 700;
 
   /* Spacing */
-  --margin: 0.5em;
-  --nav-height: 6.25em;
+  --padding-large: 2em;
+  --padding-small: 1em;
+  --nav-height: 5em;
+}
+
+/* ------------------- */
+/* Reset               */
+/* ------------------- */
+
+/* Reset sourced from : https://piccalil.li/blog/a-modern-css-reset/ */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body {
+  margin: 0;
+}
+
+/* Make all text have regular font-weight */
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-weight: 400;
+}
+
+/* Remove list styles on ul, which suggests default styling will be removed */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
 }
 
 /* Set core body defaults */
@@ -58,6 +100,25 @@ input {
   outline: none;
 }
 
+/* ------------------- */
+/* Home page           */
+/* ------------------- */
+
+/* Layout containers */
+header {
+  background-color: var(--white);
+  height: var(--nav-height);
+  padding: 0 0 0 var(--padding-small);
+}
+
+main {
+  min-height: calc(100vh - var(--nav-height));
+  background-image: url('https://images.unsplash.com/photo-1594904351111-a072f80b1a71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80');
+  background-color: var(--dark-bg-clr);
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
 /* Typography */
 .title {
   font-size: var(--fs-title);
@@ -66,7 +127,40 @@ input {
   color: var(--primary-clr);
 }
 
+.navlink {
+  font-size: var(--fs-nav-link);
+  font-weight: var(--fw-bold);
+  color: var(--primary-clr);
+  padding-right: var(--padding-small);
+}
+
+.desc-text {
+  font-size: var(--fs-description);
+  font-weight: var(--fw-bold);
+}
+
 /* Logos */
 .logo {
   max-height: 3.75em;
+}
+
+.soc_logo {
+  max-height: 100px;
+}
+
+/* Input & Buttons */
+.resource-input:focus {
+  border: 0.1em solid var(--primary-clr);
+}
+
+.submit-btn {
+  background-color: var(--accent-clr);
+  border: 0.1em solid var(--dark-clr);  
+}
+
+.submit-btn:hover,
+.submit-btn:focus {
+  background-color: var(--primary-clr);
+  border: 0.1em solid var(--light-clr);
+  color: var(--light-clr);
 }
