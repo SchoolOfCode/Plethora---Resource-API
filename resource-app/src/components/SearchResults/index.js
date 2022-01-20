@@ -27,16 +27,17 @@ export function SearchResults() {
 
   // return <div>Search Results will be here</div>;
 
-  // return (
-  //   <ul>
-  //     {results.map(function (result) {
-  //       return (
+  return (
+    <ul>
+      <li>Test</li>
+  {/* //     {results.map(function (result) { */}
+  {/* //       return (
   //         <li key={result.resourceid}>
   //           <p>Title: {result.title}</p>
   //           <p>URL: {result.url}</p>
   //         </li>
   //       );
-  //     })}
-  //   </ul>
-  // );
+  //     })} */}
+    </ul>
+  );
 }
