@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Main.css";
 import { Description } from "../Description";
 import { Input } from "../Input";
-// import { SearchResults } from "../SearchResults";
+import { SearchResults } from "../SearchResults";
 
 const API_URL = "https://w9project.herokuapp.com";
 
@@ -19,7 +19,8 @@ export function Main() {
 
     console.log(data);
 
-    setResults(data);
+    setResults(data.payload);
+
   }
 
   return (
@@ -27,7 +28,7 @@ export function Main() {
       <h1 className="title">Resource API</h1>
       <Description />
       <Input handleSubmit={getResults} />
-      {/* <SearchResults /> */}
+      <SearchResults results={results} />
     </main>
   );
 }
