@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 const API_URL = "https://w9project.herokuapp.com/resources";
 
 export function SearchResults() {
-  const [results, setResults] = useState([]);
+  // const [results, setResults] = useState([]);
 
   useEffect(() => {
     async function getResults() {
