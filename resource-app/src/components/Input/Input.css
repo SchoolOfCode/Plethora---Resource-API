@@ -1,0 +1,13 @@
+.resource-input {
+  border-radius: 0.12em;
+  border: 0;
+  padding-left: 0.5em;
+  margin-bottom: 0.3em;
+}
+
+.submit-btn {
+  padding: 0.05em 1.1em;
+  margin-left: 0.5em;
+  border-radius: 0.12em;
+  transition: all .3s;
+}
