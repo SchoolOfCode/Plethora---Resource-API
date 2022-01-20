@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-const API_URL = process.env.REACT_APP_API_URL;
+// const API_URL = process.env.REACT_APP_API_URL;
+const API_URL = "http://localhost:3001/resources";
 
 export function SearchResults() {
   const [results, setResults] = useState([]);
@@ -8,11 +9,11 @@ export function SearchResults() {
   useEffect(() => {
     async function getResults() {
       const response = await fetch(`${API_URL}`, {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json',
-        } 
-      })
+        // method: 'GET',
+        // headers: {
+        //   'Content-Type': 'application/json',
+        // }
+      });
       const data = await response.json();
       if (data.success === true) {
         console.log(data);
