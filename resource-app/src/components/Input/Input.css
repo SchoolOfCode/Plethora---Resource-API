@@ -1,13 +1,29 @@
 .resource-input {
   border-radius: 0.12em;
   border: 0;
-  padding-left: 0.5em;
-  margin-bottom: 0.3em;
+  padding: 0.2em 0.5em;
+  width: 60%;
 }
 
 .submit-btn {
-  padding: 0.05em 1.1em;
+  padding: 0.2em 1.1em;
   margin-left: 0.5em;
   border-radius: 0.12em;
   transition: all .3s;
+}
+
+@media (min-width: 450px) {
+  form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-width: 350px;
+  }
+}
+
+@media (min-width: 700px) {
+  form {
+    min-width: 600px;
+    margin-top: 2em;
+  }
 }

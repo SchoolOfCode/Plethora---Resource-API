@@ -23,7 +23,7 @@ html {
   /* Spacing */
   --padding-large: 2em;
   --padding-small: 1em;
-  --nav-height: 5em;
+  --nav-height: 101px;
 }
 
 @media (min-width: 700px) {
@@ -34,6 +34,15 @@ html {
     --fs-reg: 1.25rem;
 
     --nav-height: 7.5em;
+  }
+}
+
+@media (min-width: 1000px) {
+  html {
+    --fs-title: 5rem;
+    --fs-description: 2.75rem;
+    --fs-nav-link: 1.7rem;
+    --fs-reg: 1.4rem;
   }
 }
 
@@ -150,13 +159,42 @@ main {
   font-weight: var(--fw-bold);
 }
 
+.resource-input,
+.submit-btn {
+  font-size: var(--fs-reg);
+}
+
+.card-title {
+  color: var(--primary-clr);
+  font-size: var(--fs-reg);
+  font-weight: var(--fw-bold);
+}
+
 /* Logos */
 .logo {
-  max-height: 3.75em;
+  max-width: 80px;
 }
 
 .soc_logo {
-  max-height: 100px;
+  max-width: 110px;
+}
+
+@media (min-width: 500px) {
+  .logo {
+    max-width: 110px;
+  }
+  .soc_logo {
+    max-width: 140px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .logo {
+    max-width: 130px;
+  }
+  .soc_logo {
+    max-width: 160px;
+  }
 }
 
 /* Input & Buttons */
@@ -166,7 +204,7 @@ main {
 
 .submit-btn {
   background-color: var(--accent-clr);
-  border: 0.1em solid var(--dark-clr);
+  border: none;
 }
 
 .submit-btn:hover,
@@ -179,5 +217,5 @@ main {
 /* cards */
 .card {
   background-color: var(--white);
-  color: var(--primary-clr);
+  border-left: .5em solid var(--accent-clr);
 }

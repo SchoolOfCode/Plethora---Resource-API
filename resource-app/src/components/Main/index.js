@@ -17,10 +17,7 @@ export function Main() {
     const response = await fetch(`${API_URL}/resources?title=${text}`);
     const data = await response.json();
 
-    console.log(data);
-
     setResults(data.payload);
-
   }
 
   return (
