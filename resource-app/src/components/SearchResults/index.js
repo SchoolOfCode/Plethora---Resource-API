@@ -1,9 +1,9 @@
 import React from "react";
+import "./SearchResults.css"
 
 export function SearchResults({ results }) {
   return (
-    <div>
-      {/* <li>Test</li> */}
+    <div className="results-container">
       {results.map(function (result) {
         return (
           <a
@@ -13,11 +13,11 @@ export function SearchResults({ results }) {
             key={result.resourceid}
           >
             <div className="card">
-              <img
+              <img className="card-img"
                 src={result.thumbnail}
                 alt={`${result.resource_type} thumbnail`}
               ></img>
-              <h3>{result.title}</h3>
+              <h3 className="card-title">{result.title}</h3>
             </div>
           </a>
         );

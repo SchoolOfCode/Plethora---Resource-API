@@ -7,4 +7,17 @@
 
 .desc-text {
   text-align: center;
+  max-width: 400px;
+}
+
+@media (min-width: 700px) {
+  .desc-container {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1000px) {
+  .desc-text {
+    max-width: 500px;
+  }
 }

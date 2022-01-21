@@ -17,15 +17,12 @@ export function Main() {
     const response = await fetch(`${API_URL}/resources?title=${text}`);
     const data = await response.json();
 
-    console.log(data);
-
     setResults(data.payload);
-
   }
 
   return (
     <main>
-      <h1 className="title">Resource API</h1>
+      <h1 className="title">Plethora</h1>
       <Description />
       <Input handleSubmit={getResults} />
       <SearchResults results={results} />
