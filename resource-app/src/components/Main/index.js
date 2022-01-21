@@ -22,7 +22,7 @@ export function Main() {
 
   return (
     <main>
-      <h1 className="title">Resource API</h1>
+      <h1 className="title">Plethora</h1>
       <Description />
       <Input handleSubmit={getResults} />
       <SearchResults results={results} />

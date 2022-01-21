@@ -10,7 +10,7 @@ html {
   --white: #fff;
 
   /* Fonts */
-  --fs-title: 3rem;
+  --fs-title: 4.5rem;
   --fs-description: 1.5rem;
   --fs-nav-link: 1.125rem;
   --fs-reg: 1rem;
@@ -28,7 +28,7 @@ html {
 
 @media (min-width: 700px) {
   html {
-    --fs-title: 4rem;
+    --fs-title: 5.5rem;
     --fs-description: 2rem;
     --fs-nav-link: 1.4rem;
     --fs-reg: 1.25rem;
@@ -39,10 +39,13 @@ html {
 
 @media (min-width: 1000px) {
   html {
-    --fs-title: 5rem;
+    --fs-title: 6.5rem;
     --fs-description: 2.75rem;
     --fs-nav-link: 1.7rem;
     --fs-reg: 1.4rem;
+
+    --padding-large: 4em;
+    --padding-small: 2em;
   }
 }
 
