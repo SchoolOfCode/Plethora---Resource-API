@@ -22,7 +22,9 @@ export function Main() {
 
   return (
     <main>
-      <h1 className="title">Plethora</h1>
+      <a href="https://resourceapi.netlify.app/">
+        <h1 className="title">Plethora</h1>
+      </a>
       <Description />
       <Input handleSubmit={getResults} />
       <SearchResults results={results} />
