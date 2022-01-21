@@ -148,6 +148,7 @@ main {
   font-family: var(--ff-title);
   font-weight: var(--fw-reg);
   color: var(--primary-clr);
+  margin: 1rem 0;
 }
 
 .navlink {
@@ -160,6 +161,7 @@ main {
 .desc-text {
   font-size: var(--fs-description);
   font-weight: var(--fw-bold);
+  margin: 1rem 0;
 }
 
 .resource-input,
